@@ -18,4 +18,4 @@
 
 ## 元ネタ
 
-れいじい氏の「[ランダムガチャ 4.5](https://docs.google.com/spreadsheets/d/1OSNBF7jOywGReE0lzNi7EmO-XgfzSGvc/edit?pli=1#gid=1075287548)」を元に作成されました。
+れいじい氏の「[ランダムガチャ 4.5](https://docs.google.com/spreadsheets/d/1OSNBF7jOywGReE0lzNi7EmO-XgfzSGvc/edit?pli=1#gid=1075287548)」を元に作成されました。　
