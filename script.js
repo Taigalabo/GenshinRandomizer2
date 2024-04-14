@@ -6,6 +6,7 @@ function loadTable() {
             const tableBody = document.querySelector("#dataTable tbody");
             const tableBody2 = document.querySelector("#dataTable2 tbody");
             tableBody.innerHTML = ""; // テーブルの中身をクリア
+            tableBody2.innerHTML = "";
             // キャラクターをランダムに選択
             const characters = data.characters;
             const selectedCharacters = [];
