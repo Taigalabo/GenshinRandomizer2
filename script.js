@@ -21,6 +21,11 @@ function loadTable() {
             const randomBossIndex = Math.floor(Math.random() * bosses.length);
             const selectedBoss = bosses[randomBossIndex];
 
+            // ボスをランダムに選択
+            const sibari = data.sibari;
+            const randomsibariIndex = Math.floor(Math.random() * sibari.length);
+            const selectedsibari = sibari[randomBossIndex];
+
             // 選択されたキャラクターとボスをテーブルに挿入
             let count = 1;
             selectedCharacters.forEach((character) => {
@@ -32,7 +37,14 @@ function loadTable() {
                 tableBody.appendChild(row);
             });
 
-            const bossRow = document.createElement("tr");
+            const sibariRow = document.createElement("tr");
+            sibariRow.innerHTML = `
+                <td>全員</td>
+                <td>${selectedsibari}</td>
+            `;
+            tableBody2.appendChild(sibariRow);
+        })
+        const bossRow = document.createElement("tr");
             bossRow.innerHTML = `
                 <td>ボス</td>
                 <td>${selectedBoss}</td>
