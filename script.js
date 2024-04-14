@@ -26,7 +26,7 @@ function loadTable() {
             // ボスをランダムに選択
             const sibari = data.sibari;
             const randomsibariIndex = Math.floor(Math.random() * sibari.length);
-            const selectedsibari = sibari[randomBossIndex];
+            const selectedsibari = sibari[randomsibariIndex];
 
             // 選択されたキャラクターとボスをテーブルに挿入
             let count = 1;
