@@ -4,7 +4,7 @@ function loadTable() {
         .then((response) => response.json())
         .then((data) => {
             const tableBody = document.querySelector("#dataTable tbody");
-            const tableBody2 = document.querySelector("#dataTable tbody2");
+            const tableBody2 = document.querySelector("#dataTable2 tbody");
             tableBody.innerHTML = ""; // テーブルの中身をクリア
             // キャラクターをランダムに選択
             const characters = data.characters;
