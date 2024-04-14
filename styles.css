@@ -53,3 +53,28 @@ footer {
     margin-top: 20px;
     text-align: center;
 }
+
+#dataTable2 {
+    margin: 20px 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#dataTable2 td, #dataTable th {
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-wrapper {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: auto;
+    max-height: 300px;
+}
+
+#dataTable2 th:first-child,
+#dataTable2 td:first-child {
+    width: 50px; /* 最初の列の幅を100pxに設定 */
+}
