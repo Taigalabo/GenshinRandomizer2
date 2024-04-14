@@ -43,7 +43,6 @@ function loadTable() {
                 <td>${selectedsibari}</td>
             `;
             tableBody2.appendChild(sibariRow);
-        })
         const bossRow = document.createElement("tr");
             bossRow.innerHTML = `
                 <td>ボス</td>
